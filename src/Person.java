@@ -23,7 +23,7 @@ public class Person {
 //        Person person2 = new Person("John");
 //        System.out.println(person1.getName().equals(person2.getName()));
 //        System.out.println(person1 == person2);
-        throw new Exception("Something bad happened!");
+        throw new Exception("this will be bad !");
         System.out.println("this will not run");
 
 
