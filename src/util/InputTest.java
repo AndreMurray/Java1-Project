@@ -22,7 +22,7 @@ public class InputTest {
         int userInt2 = input.getInt();
         System.out.println("You entered: " + userInt2);
 
-        System.out.print("Enter a decimal number between 0.5 and 2.5: ");
+        System.out.print("Enter a decimal number between 0.5 and 1.5: ");
         double userDouble = input.getDouble(0.5, 2.5);
         System.out.println("You entered: " + userDouble);
 
