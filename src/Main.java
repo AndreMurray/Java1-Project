@@ -1,9 +1,10 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
-    public static void changeString(String s) {
-        s = "Wub a lub a dub dub";
-    }
+     static double myFavoriteNumber = 3.14;
+     static String myString = "3.14";
+
 
 
 }

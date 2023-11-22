@@ -18,11 +18,14 @@ public class Person {
 //TODO: print a message to the console using the person's name
         System.out.println("Hello " + this.name + ".");
     }
+
+
+
     public static void main(String[] args) throws Exception {
-//        Person person1 = new Person("John");
-//        Person person2 = new Person("John");
-//        System.out.println(person1.getName().equals(person2.getName()));
-//        System.out.println(person1 == person2);
+        Person person1 = new Person("John");
+        Person person2 = new Person("John");
+        System.out.println(person1.getName().equals(person2.getName()));
+        System.out.println(person1 == person2);
         throw new Exception("this will be bad !");
 
 
